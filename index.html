@@ -175,7 +175,7 @@ function Dashboard() {
   const fcThisWk = fd.length > 0 ? fd[fd.length-1]?.fc : 0;
   // 8-week forecast from iSupply (automation populates this)
   // Format: [[date, weekNum, forecastCases], ...]
-  const FORECAST_8WK = [["07/09/2026",37,1046],["14/09/2026",38,957],["21/09/2026",39,750],["28/09/2026",40,1098],["05/10/2026",41,647],["12/10/2026",42,649],["19/10/2026",43,519],["26/10/2026",44,731]];
+  const FORECAST_8WK = [["14/09/2026",38,1131],["21/09/2026",39,925],["28/09/2026",40,1330],["05/10/2026",41,692],["12/10/2026",42,689],["19/10/2026",43,639],["26/10/2026",44,927],["02/11/2026",45,1097]];
   const currentForecast = FORECAST_8WK[0]?.[2] || 0;
 
   const yoy = useMemo(() => {
